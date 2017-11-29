@@ -1,0 +1,155 @@
+header {
+	text-align:center;
+	font-family: Porter;
+	width: 1441px;
+	height: 457px;
+	background-position: cover;
+	background-repeat:no-repeat;
+}
+
+body {
+	margin: 0px;
+	padding: 20px;
+	background: url("https://images.pexels.com/photos/6245/kitchen-cooking-interior-decor.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb") transparent 50%; 
+	color: white;
+
+
+}
+
+a {
+	text-decoration: none;
+}
+
+
+#linkb {
+	color:black;
+	font-weight: bold;
+}
+
+#linkm {
+	font-size: 14pt;
+	font-family: Porter, sans-serif;
+	color:black;
+	text-decoration: none;
+	margin:auto;
+}
+
+#logobarre {
+	font-family: SignPainter;
+	font-size: 26pt;
+	margin:auto;
+}
+
+#en {
+
+	font-family: Symbol, sans-serif;
+	font-size: 25pt;
+	text-align: center;
+}
+
+#titre2 {
+	font-family: Symbol, sans-serif;
+	text-align: center;
+} 
+
+#titre2w {
+	font-family: Symbol, sans-serif;
+	text-align: center;
+	color: white;
+	line-height: 200px;
+} 
+
+#titre3 {
+	font-family: SignPainter;
+	font-size: 24pt;
+	text-align:center;
+}
+
+#titre3w {
+	font-family: SignPainter;
+	font-size: 24pt;
+	text-align:center;
+	color: white;
+}
+
+#titreen {
+	font-family: SignPainter;
+	font-size: 40pt;
+	text-align: center;
+}	
+
+
+}
+
+#menu {
+	height:100px;
+}
+
+#menu ul {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: 0px;
+	padding:0px;
+} 
+
+#menu li {
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding:50px;
+} 
+
+li:hover {
+	font-weight: bold;
+	color:darkgrey;
+}
+
+#text {
+	width: 45%;
+    margin: auto;
+    font-family: Symbol, sans-serif;
+	font-size: 13pt;
+}
+
+#m {
+	display:flex;
+	flex-direction:row;
+	margin: auto;
+}
+
+#imgbarre {
+padding-left: 150px;
+text-align: right;
+}
+
+#textbarre {
+padding-right: 400px;
+margin: auto;
+text-align: left;
+}
+
+#cssm {
+font-family: meatloaf;
+color: #8B0000;
+font-size: 110pt;
+}
+
+
+#fin {
+	text-align:center;
+	width: 1441px;
+	height: 457px;
+	background-position: cover;
+	background-repeat:no-repeat;
+	display: block;
+}
+
+#cssfin {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Symbol, sans-serif;
+	font-size: 13pt;
+	color: white;
+	text-align: center;
+}

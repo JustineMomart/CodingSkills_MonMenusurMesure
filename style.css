@@ -1,0 +1,311 @@
+   header{
+     @media (max-width: 768px)
+    flex-direction: column;
+	text-align:center;
+	font-family: Porter;
+	width: 100%;
+	height: 780px;
+	background: url("https://images.pexels.com/photos/9095/pexels-photo.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
+	background-repeat:no-repeat;
+}
+
+body {
+	margin:none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+#org {
+	text-align: center;
+	font-family: Porter;
+	font-size: 20pt;
+  color: white;
+}
+
+#mon {
+	text-align: center;
+	font-family: Porter;
+	font-size: 60pt;
+  color: white;
+}
+
+#news {
+	text-align: center;
+	font-family: Porter;
+	font-size: 35pt;
+	color:#222222;
+}
+
+
+#dessus {
+	text-align: center;
+	font-family: Porter;
+	font-size: 60pt;
+  padding: 60px;
+}
+
+#dessous {
+	text-align: center;
+	font-family: Porter;
+	font-size: 60pt;
+}
+
+#titre2 {
+	font-family: Symbol, sans-serif;
+	text-align: center;
+} 
+
+#titre3 {
+	font-family: SignPainter;
+	font-size: 24pt;
+	text-align:center;
+}
+
+#linkw {
+	color:white;
+	font-weight: bold;
+	font-size: 14pt;
+	font-family: Batavia;
+	border: 2px solid white;
+	padding: 5px 50px 5px 50px;
+}
+
+#linkb {
+	font-size: 14pt;
+	font-family: Batavia;
+	font-weight: bold;
+	color:black;
+	border: 2px solid black;
+	padding: 5px 50px 5px 50px;
+}
+
+#linkm {
+	font-size: 14pt;
+	font-family: Porter, sans-serif;
+	color:black;
+	text-decoration: none;
+	margin:auto;
+}
+
+#logobarre {
+	font-family: SignPainter;
+	font-size: 26pt;
+	margin:auto;
+}
+
+#page1 {
+	display:block;
+	margin:auto;
+  margin-top:100px;
+}
+#menu {
+	height:100px;
+}
+#menu ul {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: 0px;
+	padding:0px;
+} 
+#menu li {
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding:50px;
+} 
+
+li:hover {
+	font-weight: bold;
+	color:darkgrey;
+}
+
+.intro {
+  display: flex;
+}
+
+.intro-picture, .intro-content {
+  flex-basis: 50%;
+}
+
+.intro-picture {
+  background-image: url("https://images.pexels.com/photos/9510/food-pizza-kitchen-recipe.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+.intro-content {
+  padding: 30px;
+  text-align:center;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+  }
+  .intro-picture {
+    height: 200px;
+  }
+}
+
+#entrees {
+	text-align:center;
+	font-family: Porter;
+	font-size: 80pt;
+	width: 100%;
+	height: 780px;
+	background-position: absolute;
+	background-image: url("https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
+	display:flex;
+}
+
+#espace {
+	text-align:center;
+	font-family: Porter;
+	font-size: 80pt;
+	width: 100%;
+	height: 780px;
+	background-position: absolute;
+	background-image: url("https://images.pexels.com/photos/9315/menu-restaurant-france-eating-9315.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
+	display:flex;
+}
+
+
+#app {
+	color: white;
+	margin:auto;
+}
+
+#esp {
+	text-align:center;
+	margin: auto;
+	color: white;
+	width: 100%;
+	height: 100%;
+	background-image: url("../espace.jpg");
+	display: flex;
+}
+#es {
+	color: white;
+	margin: auto;
+}
+
+
+#plat {
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+}
+
+.plat {
+  display: flex;
+  text-align:center;
+}
+
+.plat-picture, .plat-content {
+  flex-basis: 50%;
+}
+
+.plat-picture {
+  background-image: url("https://images.pexels.com/photos/76093/pexels-photo-76093.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrg");
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+.intro-content {
+  padding: 30px;
+  text-align:center;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+  }
+  .intro-picture {
+    height: 200px;
+  }
+}
+
+
+
+#textplat {
+	width: 100%;
+	margin-top:100px;
+	padding:100px;
+	background-color: white;
+	text-align: center;
+}
+
+#imgplat {
+  @media (max-width: 768px)
+  flex-direction: column;
+	width:50%;
+  height: 450px;
+	margin-top: 0px;
+	margin-left:0px;
+}
+
+#desserts {
+	display:flex;
+	flex-direction:row;
+}
+
+
+#imgdesserts {
+	width:100%;
+	margin-top: 0px;
+	margin-left:0px;
+}
+
+#textdesserts {
+	width: 100%;
+	margin-top:80px;
+	padding:80px;
+	background-color: white;
+	text-align: center;
+}
+
+.dessert {
+  display: flex;
+  text-align:center;
+}
+
+.dessert-picture, .dessert-content {
+  flex-basis: 50%;
+}
+
+.dessert-picture {
+  background-image: url("https://images.pexels.com/photos/239581/pexels-photo-239581.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+.intro-content {
+  padding: 30px;
+  text-align:center;
+}
+
+#newsletter {
+	text-align:center;
+	font-family: Porter;
+	font-size: 80pt;
+	width: 100%;
+	height: 780px;
+	background-position: absolute;
+	background-image: url("https://images.pexels.com/photos/260485/pexels-photo-260485.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
+	display:flex;
+}
+
+.navbar.bg-light {
+	background: rgba(255,255,255,0.7)!important;
+
+}
+
+
+
